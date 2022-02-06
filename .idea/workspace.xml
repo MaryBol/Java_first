@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="first style changes">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="Test selenium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/MyFirstProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/distributions/sandbox.tar" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/distributions/sandbox.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/distributions/sandbox.zip" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/distributions/sandbox.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/libs/sandbox.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/libs/sandbox.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/scripts/sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/scripts/sandbox" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/scripts/sandbox.bat" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/scripts/sandbox.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643146916370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test selenium">
+      <created>1644159591792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644159591792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +260,8 @@
     <MESSAGE value="first idea" />
     <MESSAGE value="first package" />
     <MESSAGE value="first style changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="first style changes" />
+    <MESSAGE value="Test selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test selenium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
