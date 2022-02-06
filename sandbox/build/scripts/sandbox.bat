@@ -67,11 +67,11 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\sandbox.jar
+set CLASSPATH=%APP_HOME%\lib\sandbox.jar;%APP_HOME%\lib\testng-6.14.3.jar;%APP_HOME%\lib\jcommander-1.72.jar;%APP_HOME%\lib\bsh-2.0b6.jar
 
 
 @rem Execute sandbox
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" MyFirstProgram %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" ru.stqa.pft.sandbox.MyFirstProgram %*
 
 :end
 @rem End local scope for the variables with windows NT shell
