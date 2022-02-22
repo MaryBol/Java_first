@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="2.Exercise create class Point for two points on flat, create function public static double distance(Point p1, Point p2).">
+    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="2CChange address to addressbook">
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/pft/sandbox/MyFirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/pft/sandbox/MyFirstProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/pft/sandbox/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/pft/sandbox/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupCreationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/test/ru/stqa/pft/sandbox/SquareTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/classes/java/test/ru/stqa/pft/sandbox/SquareTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/classes/ru.stqa.pft.sandbox.SquareTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/reports/tests/test/classes/ru.stqa.pft.sandbox.SquareTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/packages/ru.stqa.pft.sandbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/reports/tests/test/packages/ru.stqa.pft.sandbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/test-results/test/TEST-ru.stqa.pft.sandbox.SquareTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/test-results/test/TEST-ru.stqa.pft.sandbox.SquareTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/SquareTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/SquareTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +99,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.addressbook" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyFirstProgram">
+  <component name="RunManager" selected="Gradle.GroupCreationTests">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -123,6 +134,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.stqa.pft.addressbook.GroupCreationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupCreationTests.testNewContactCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.pft.addressbook.GroupCreationTests.testNewContactCreation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,34 +212,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sandbox [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="Gradle.GroupCreationTests" />
+        <item itemvalue="Gradle.GroupCreationTests.testNewContactCreation" />
         <item itemvalue="Gradle.SquareTests" />
+        <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="Gradle.SquareTests.testArea (1)" />
-        <item itemvalue="Gradle.sandbox [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645389648604</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2.Exercise create method in class Point">
+      <created>1645425631053</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645425631053</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +324,9 @@
     <MESSAGE value="used refactoring for some steps (extract steps to Method, extract Parametr and Object)" />
     <MESSAGE value="Exercise create class Point for two points on flat, create function public static double distance(Point p1, Point p2)." />
     <MESSAGE value="2.Exercise create class Point for two points on flat, create function public static double distance(Point p1, Point p2)." />
-    <option name="LAST_COMMIT_MESSAGE" value="2.Exercise create class Point for two points on flat, create function public static double distance(Point p1, Point p2)." />
+    <MESSAGE value="2.Exercise create method in class Point" />
+    <MESSAGE value="2CChange address to addressbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="2CChange address to addressbook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
