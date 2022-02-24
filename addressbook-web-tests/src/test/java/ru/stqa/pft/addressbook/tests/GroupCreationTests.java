@@ -17,12 +17,6 @@ public class GroupCreationTests extends TestBase {
     app.getGroupHelper().returnToGroupPage();
 
   }
-  @Test
-  public void testNewContactCreation() {
-    app.getNavigationHelper().gotoAddNewPage();
-    app.getContactHelper().fillContactForm(new ContactDataMain("dfgdg", "dgdfg", "dgfdfg", "dfgdfgd", "dgdfg", "dgdfgd", "dgdfg"), new ContactDataTelephone("fh123", "1231", "123", "123"));
-    app.getContactHelper().saveContactForm();
-    app.getNavigationHelper().gotoHomePage();
-  }
+
 
 }

@@ -4,16 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="TestBase class contains all written methods for GroupCreationTeests and GroupDeletion classes.">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
+    <list default="true" id="66c9b532-eece-4b6a-a7af-2b2448afc289" name="Changes" comment="EquationTests were added">
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/HelperBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/NavigationHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/SessionHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/model/ContactDataMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/model/ContactDataTelephone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/model/GroupData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/ContactCreationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/ContactDeletionTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/ContactModificationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupDeletionTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupModificationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/tests/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Equality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/EquationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactDataMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactDataMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactDataTelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactDataTelephone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/ContactDataMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/ContactDataTelephone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/GroupDeletionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/java/test/ru/stqa/pft/addressbook/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/classes/ru.stqa.pft.addressbook.GroupCreationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/packages/ru.stqa.pft.addressbook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/TEST-ru.stqa.pft.addressbook.GroupCreationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/classes/ru.stqa.pft.sandbox.SquareTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/reports/tests/test/packages/ru.stqa.pft.sandbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/reports/tests/test/packages/ru.stqa.pft.sandbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/test-results/test/TEST-ru.stqa.pft.sandbox.SquareTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +125,12 @@
   </component>
   <component name="ProjectId" id="223kZNIu0wXCA2knNnk9VftNv9f" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -103,8 +150,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GroupCreationTests">
-    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
+    <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.Equality" />
       <module name="sandbox.main" />
       <extension name="coverage">
         <pattern>
@@ -115,6 +162,75 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ContactCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.pft.addressbook.tests.ContactCreationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactDeletionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.pft.addressbook.tests.ContactDeletionTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EquationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.pft.sandbox.EquationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -129,76 +245,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.addressbook.GroupCreationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupCreationTests.testNewContactCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.addressbook.GroupCreationTests.testNewContactCreation&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupDeletionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.addressbook.GroupDeletionTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SquareTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.sandbox.SquareTests&quot;" />
+            <option value="&quot;ru.stqa.pft.addressbook.tests.GroupCreationTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,10 +258,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.GroupCreationTests" />
-        <item itemvalue="Gradle.GroupDeletionTests" />
-        <item itemvalue="Gradle.GroupCreationTests.testNewContactCreation" />
-        <item itemvalue="Gradle.SquareTests" />
-        <item itemvalue="Application.MyFirstProgram" />
+        <item itemvalue="Application.Equality" />
+        <item itemvalue="Gradle.EquationTests" />
+        <item itemvalue="Gradle.ContactCreationTests" />
+        <item itemvalue="Gradle.ContactDeletionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645531029016</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2level architecture was created for test set">
+      <created>1645567637749</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645567637749</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +392,12 @@
     <MESSAGE value="2CChange address to addressbook" />
     <MESSAGE value="ContactCreationTest added and GroupDeletionClass with extension Testbase added" />
     <MESSAGE value="TestBase class contains all written methods for GroupCreationTeests and GroupDeletion classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBase class contains all written methods for GroupCreationTeests and GroupDeletion classes." />
+    <MESSAGE value="2level arhitecture was created for test set" />
+    <MESSAGE value="2level architecture was created for test set" />
+    <MESSAGE value="HelperBase was created" />
+    <MESSAGE value="ContactHelper extended by HelperBase" />
+    <MESSAGE value="EquationTests were added" />
+    <option name="LAST_COMMIT_MESSAGE" value="EquationTests were added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
