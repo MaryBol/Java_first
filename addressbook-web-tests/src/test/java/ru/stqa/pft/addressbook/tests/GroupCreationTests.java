@@ -12,7 +12,7 @@ public class GroupCreationTests extends TestBase {
   public void testGroupCreation() throws Exception {
     app.getNavigationHelper().gotoGroupPage();
     app.getGroupHelper().initGropCreation();
-    app.getGroupHelper().fillGroupForm(new GroupData("test6", "test37", "test47"));
+    app.getGroupHelper().fillGroupForm(new GroupData("test6", null, null));
     app.getGroupHelper().submitGroupCreation();
     app.getGroupHelper().returnToGroupPage();
 
