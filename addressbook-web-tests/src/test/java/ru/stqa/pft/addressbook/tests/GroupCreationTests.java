@@ -1,8 +1,6 @@
 package ru.stqa.pft.addressbook.tests;
 
 import org.testng.annotations.*;
-import ru.stqa.pft.addressbook.model.ContactDataMain;
-import ru.stqa.pft.addressbook.model.ContactDataTelephone;
 import ru.stqa.pft.addressbook.model.GroupData;
 
 public class GroupCreationTests extends TestBase {

@@ -2,8 +2,9 @@ package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactDataMain;
-import ru.stqa.pft.addressbook.model.ContactDataTelephone;
 
 public class ContactHelper extends HelperBase {
 
@@ -17,31 +18,25 @@ public class ContactHelper extends HelperBase {
     click(By.xpath("//input[21]"));
   }
 
-  public void fillContactForm(ContactDataMain contactDataMain, ContactDataTelephone contactDataTelephone) {
-    type(By.name("firstname"),contactDataMain.firstname());
-    type(By.name("middlename"),contactDataMain.middlename());
-    type(By.name("lastname"),contactDataMain.lastname());
-    type(By.name("nickname"),contactDataMain.nickname());
-    type(By.name("title"),contactDataMain.title());
+  public void fillContactForm(ContactDataMain contactDataMain, boolean creation) {
+    type(By.name("firstname"), contactDataMain.firstname());
+    type(By.name("middlename"), contactDataMain.middlename());
+    type(By.name("lastname"), contactDataMain.lastname());
+    type(By.name("nickname"), contactDataMain.nickname());
+    type(By.name("title"), contactDataMain.title());
     // wd.findElement(By.name("photo")).click();
     // wd.findElement(By.name("photo")).clear();
     // wd.findElement(By.name("photo")).sendKeys("C:\\Users\\Maria\\Desktop\\резюме\\фото.jpg");
-    type(By.name("company"),contactDataMain.company());
-    type(By.name("address"),contactDataMain.address());
-    type(By.name("mobile"),contactDataTelephone.mobile());
-    type(By.name("home"),contactDataTelephone.home());
-    wd.findElement(By.name("home")).click();
-    wd.findElement(By.name("home")).clear();
-    wd.findElement(By.name("home")).sendKeys(contactDataTelephone.home());
-    wd.findElement(By.name("mobile")).click();
-    wd.findElement(By.name("mobile")).clear();
-    wd.findElement(By.name("mobile")).sendKeys(contactDataTelephone.mobile());
-   // wd.findElement(By.name("work")).click();
-   // wd.findElement(By.name("work")).clear();
+    type(By.name("company"), contactDataMain.company());
+    type(By.name("address"), contactDataMain.address());
+    type(By.name("mobile"), contactDataMain.mobile());
+    type(By.name("home"), contactDataMain.home());
+    // wd.findElement(By.name("work")).click();
+    // wd.findElement(By.name("work")).clear();
     //wd.findElement(By.name("work")).sendKeys(contactDataTelephone.work());
-   // wd.findElement(By.name("fax")).click();
-   // wd.findElement(By.name("fax")).clear();
-   // wd.findElement(By.name("fax")).sendKeys(contactDataTelephone.fax());
+    // wd.findElement(By.name("fax")).click();
+    // wd.findElement(By.name("fax")).clear();
+    // wd.findElement(By.name("fax")).sendKeys(contactDataTelephone.fax());
     // wd.findElement(By.name("email")).click();
     //wd.findElement(By.name("email")).clear();
     //wd.findElement(By.name("email")).sendKeys("dfgdgdg");
@@ -84,10 +79,16 @@ public class ContactHelper extends HelperBase {
     //wd.findElement(By.name("notes")).click();
     //wd.findElement(By.name("notes")).clear();
     // wd.findElement(By.name("notes")).sendKeys("dgfg");
+    if (creation) {
+      new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactDataMain.getGroup());
+    } else {
+      Assert.assertFalse(isElementPresent(By.name("new_group")));
+    }
   }
 
+
   public void selectContact() {
-    click(By.id("1"));
+    click(By.id("5"));
 
   }
 

@@ -10,9 +10,13 @@ public final class ContactDataMain {
   private final String title;
   private final String company;
   private final String address;
+  private final String home;
+  private final String mobile;
+  private String group;
+
 
   public ContactDataMain(String firstname, String middlename, String lastname, String nickname, String title,
-                         String company, String address) {
+                         String company, String address, String home, String mobile, String group) {
     this.firstname = firstname;
     this.middlename = middlename;
     this.lastname = lastname;
@@ -20,6 +24,9 @@ public final class ContactDataMain {
     this.title = title;
     this.company = company;
     this.address = address;
+    this.home = home;
+    this.mobile = mobile;
+    this.group = group;
   }
 
   public String firstname() {
@@ -48,6 +55,13 @@ public final class ContactDataMain {
 
   public String address() {
     return address;
+  }
+  public String home() {
+    return home;
+  }
+
+  public String mobile() {
+    return mobile;
   }
 
   @Override
@@ -81,4 +95,7 @@ public final class ContactDataMain {
             "address=" + address + ']';
   }
 
+  public String getGroup() {
+    return group;
+  }
 }
